@@ -29,7 +29,12 @@
 }
 
 .skillHeading {
-  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  background: linear-gradient(
+    43deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 46%,
+    rgb(255, 204, 112) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -88,11 +93,11 @@
 
 .space2 video {
   position: absolute;
-  width: 400%;  /* Increased from 200% to 400% */
+  width: 400%; /* Increased from 200% to 400% */
   top: 50%;
   left: 50%;
   filter: opacity(80%) contrast(125%);
-  transform: translate(-50%, -15%) scale(1.2);  /* Added scale to make it even larger */
+  transform: translate(-50%, -15%) scale(1.2); /* Added scale to make it even larger */
   z-index: 0;
 }
 
