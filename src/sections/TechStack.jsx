@@ -85,14 +85,13 @@ const TechStack = () => {
           <div className="leftSkillContainer">
             <div className="skillSubHeading">
               <p>
-                Hi Everyone 👋 I'm Abuzar Tamboli — a Full Stack Developer with
-                4+ years of experience (which in dev years probably counts as 40
-                😅). I believe in writing clean code, authentic connections, and
+                Hi Everyone 👋 I'm Abubakar Tamboli — a Full Stack Developer. 
+                I believe in writing clean code, authentic connections, and
                 occasionally talking to my toddler for debugging help 🐤.
               </p>
               <p>
                 Over the years, I've picked up a solid arsenal of tools — MERN
-                Stack, React.js, Node.js, TypeScript, and all the shiny modern
+                Stack, React.js, Node.js, and all the shiny modern
                 web tech the internet throws at us. If it runs in a browser (or
                 even if it doesn't), I'm probably already trying to build
                 something with it.

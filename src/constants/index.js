@@ -18,11 +18,11 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Abuzar", imgPath: "/images/ideas.svg" },
+  { text: "Abubakar", imgPath: "/images/ideas.svg" },
   { text: "a Full Stack Developer", imgPath: "/images/concepts.svg" },
   { text: "React Wizard", imgPath: "/images/designs.svg" },
   { text: "MERN Stack Magician", imgPath: "/images/code.svg" },
-  { text: "Abuzar", imgPath: "/images/ideas.svg" },
+  { text: "Abubakar", imgPath: "/images/ideas.svg" },
   { text: "a Full Stack Developer", imgPath: "/images/concepts.svg" },
   { text: "React Wizard", imgPath: "/images/designs.svg" },
   { text: "MERN Stack Magician", imgPath: "/images/code.svg" },
@@ -148,7 +148,7 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Abuzar brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Abubakar brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.jpg",
     logoPath: "/images/logo1.jpg",
     title: "Team Lead",
@@ -163,7 +163,7 @@ const expCards = [
   },
   {
     review:
-      "Abuzar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Abubakar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp1.jpg",
     logoPath: "/images/logo1.jpg",
     title: "Senior Software Engineer",
@@ -178,7 +178,7 @@ const expCards = [
   },
   {
     review:
-      "Abuzar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Abubakar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Software Engineer",
@@ -213,42 +213,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Abuzar. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Abubakar. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Abuzar was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Abubakar was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Abuzar was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abuzar's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abuzar is the ideal partner.",
+      "Collaborating with Abubakar was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abubakar's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abubakar is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Abuzar was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Abubakar was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Abuzar’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Abubakar’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Abuzar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Abubakar was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];

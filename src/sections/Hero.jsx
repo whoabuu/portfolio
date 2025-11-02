@@ -49,12 +49,11 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Full Stack Developer with 4+ years of turning coffee into code and
-              bugs into features.
+            Student developer turning coffee and class assignments into web apps.
               <br />
-              Expert in making React components cry tears of joy and
+              Passionate about making React render beautifully and learning scalable
               <br />
-              teaching Node.js to behave like a good child.
+               Node.js. Ready to turn bugs into 'aha!' moments and launch my career.
             </p>
           </div>
         </header>
