@@ -1,11 +1,10 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/models/contact/ContactExperience";
 
 const Contact = () => {
-  const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
@@ -20,22 +19,33 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Simple validation
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
     setLoading(true); // Show loading state
 
     try {
-      await emailjs.sendForm(
+      await emailjs.send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        formRef.current,
+        form, // Pass the state object directly
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
-      // Reset form and stop loading
-      setForm({ name: "", email: "", message: "" });
+      // Success
+      setLoading(false);
+      alert("Thank you! Your message has been sent successfully.");
+      setForm({ name: "", email: "", message: "" }); // Reset form
+
     } catch (error) {
-      console.error("EmailJS Error:", error); // Optional: show toast
-    } finally {
-      setLoading(false); // Always stop loading, even on error
+      // Error
+      setLoading(false);
+      console.error("EmailJS Error:", error);
+      alert("Something went wrong. Please try again later.");
     }
   };
 
@@ -50,7 +60,6 @@ const Contact = () => {
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
               <form
-                ref={formRef}
                 onSubmit={handleSubmit}
                 className="w-full flex flex-col gap-7"
               >
