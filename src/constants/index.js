@@ -147,64 +147,43 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review:
-      "Abubakar brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.jpg",
-    logoPath: "/images/logo1.jpg",
-    title: "Team Lead",
-    date: "Jul 2025 - Present",
-    responsibilities: [
-      "Led a team of 6 developers, delivering MERN solutions with 30% faster sprint velocity.",
-      "Spearheaded adoption of Agentic AI, using enterprise-ready digital coaches, summarizers, and research agents to automate workflows and accelerate delivery.",
-      "Mentored engineers in React, Node.js, and AI workflows, improving code quality and reducing production bugs by 25%.",
-      "Collaborated with stakeholders to define architecture roadmaps balancing innovation, scalability, and security.",
-      "Recognized as the youngest Team Lead in the Digital Practice, driving technical excellence and a culture of innovation.",
-    ],
+    review: "",
+    imgPath: "",
+    logoPath: "",
+    title: "",
+    date: "",
+    responsibilities: [],
   },
   {
-    review:
-      "Abubakar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp1.jpg",
-    logoPath: "/images/logo1.jpg",
-    title: "Senior Software Engineer",
-    date: "Sep 2023 - Jun 2025 · 1 yr 10 mos",
-    responsibilities: [
-      "Built and deployed scalable MERN stack applications serving 50K+ users, improving performance by 40%.",
-      "Revamped Git workflows and CI/CD pipelines, cutting integration conflicts by 40% and accelerating releases.",
-      "Introduced pair programming and rigorous code reviews, boosting team productivity by 30% while reducing post-release bugs.",
-      "Integrated AI-assisted development tools, enabling early feature deliveries and raising overall code quality.",
-      "Awarded Best Performer 2024 for exceeding client goals and fostering a high-performing team culture.",
-    ],
+    review: "",
+    imgPath: "",
+    logoPath: "",
+    title: "",
+    date: "",
+    responsibilities: [],
   },
   {
-    review:
-      "Abubakar’s contributions to client web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Software Engineer",
-    date: "Aug 2021 - Sep 2023 · 2 yrs 2 mos",
-    responsibilities: [
-      "Developed responsive, cross-browser compatible React components, improving UX and page load speed by 22%.",
-      "Optimized Express.js backend APIs, increasing server-side performance and data processing speed by 25%.",
-      "Built custom Redux middleware to streamline complex state management and reduce API response delays.",
-      "Refactored legacy codebase with modern JavaScript and TypeScript standards, increasing maintainability and scalability.",
-      "Collaborated closely with QA and DevOps teams, ensuring smooth integration, testing, and deployment cycles.",
-    ],
+    review: "",
+    imgPath: "",
+    logoPath: "",
+    title: "",
+    date: "",
+    responsibilities: [],
   },
 ];
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "",
+    imgPath: "",
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    name: "",
+    imgPath: "",
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: "",
+    imgPath: "",
   },
 ];
 
