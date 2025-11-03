@@ -236,19 +236,28 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: 'https://www.instagram.com/whoabuuu9/'
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: 'https://www.facebook.com/abubakar.tamboli.353/'
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: 'https://x.com/_abubakar_20'
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: 'https://www.linkedin.com/in/abubakar-tamboli/'
   },
+  {
+    name: "github",
+    imgPath: "/images/github.png",
+    link: 'https://github.com/whoabuu'
+  }
 ];
 
 export {
